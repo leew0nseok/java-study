@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Sample {
     public static void main(String[] args) {
         int a = 10;
@@ -14,9 +15,16 @@ public class Sample {
         String result = sb.toString();
         System.out.println(result);
 
+        //Array
         String[] weeks = {"월", "화", "수", "목", "금", "토", "일"};
         for (int i=0; i<weeks.length; i++) {
             System.out.println(weeks[i]);
         }
+
+        //List
+        ArrayList pitches = new ArrayList();
+        pitches.add("138");
+        pitches.add("129");
+        pitches.add("142");
     }
 }
