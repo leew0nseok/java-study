@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 public class Sample {
     public static void main(String[] args) {
         int a = 10;
@@ -32,5 +33,9 @@ public class Sample {
         HashMap<String, String> map = new HashMap<>();
         map.put("people", "사람");
         map.put("baseball", "야구");
+
+        //HashSet
+        HashSet<String> set = new HashSet<>(Arrays.asList("H", "e", "l", "l", "o"));
+        System.out.println(set);  //  [e, H, l, o] 출력
     }
 }
