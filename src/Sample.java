@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 public class Sample {
+    enum CoffeeType {
+        AMERICANO,
+        ICE_AMERICANO,
+        CAFE_LATTE
+    };
     public static void main(String[] args) {
         int a = 10;
         int b = 5;
@@ -37,5 +42,11 @@ public class Sample {
         //HashSet
         HashSet<String> set = new HashSet<>(Arrays.asList("H", "e", "l", "l", "o"));
         System.out.println(set);  //  [e, H, l, o] 출력
+
+        //Enum
+        System.out.println(CoffeeType.AMERICANO);  // AMERICANO 출력
+        System.out.println(CoffeeType.ICE_AMERICANO);  // ICE_AMERICANO 출력
+        System.out.println(CoffeeType.CAFE_LATTE);  // CAFE_LATTE 출력
     }
+
 }
