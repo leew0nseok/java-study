@@ -47,6 +47,11 @@ public class Sample {
         System.out.println(CoffeeType.AMERICANO);  // AMERICANO 출력
         System.out.println(CoffeeType.ICE_AMERICANO);  // ICE_AMERICANO 출력
         System.out.println(CoffeeType.CAFE_LATTE);  // CAFE_LATTE 출력
+
+        //형변환
+        String num = "123";
+        int n = Integer.parseInt(num);
+        System.out.println(n);  // 123 출력
     }
 
 }
