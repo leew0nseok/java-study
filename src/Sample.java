@@ -52,6 +52,10 @@ public class Sample {
         String num = "123";
         int n = Integer.parseInt(num);
         System.out.println(n);  // 123 출력
+
+        int nm = 123;
+        String numm = "" + n;
+        System.out.println(num);  // 123 출력
     }
 
 }
