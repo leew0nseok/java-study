@@ -39,9 +39,7 @@ public class Sample {
         map.put("people", "사람");
         map.put("baseball", "야구");
 
-        //HashSet
-        HashSet<String> set = new HashSet<>(Arrays.asList("H", "e", "l", "l", "o"));
-        System.out.println(set);  //  [e, H, l, o] 출력
+
 
         //Enum
         System.out.println(CoffeeType.AMERICANO);  // AMERICANO 출력
@@ -55,7 +53,7 @@ public class Sample {
 
         int nm = 123;
         String numm = "" + n;
-        System.out.println(num);  // 123 출력
+        System.out.println(numm);  // 123 출력
     }
 
 }

@@ -1,7 +1,7 @@
 public class GuGu {
     public void dan(int n){
         for(int i =1; i <10; i++){
-            System.out.println(n * i);
+            System.out.println(String.format("%d", n) + "*" + String.format("%d", i) + "=" +  n * i);
         }
     }
     public static void main(String[] args){
