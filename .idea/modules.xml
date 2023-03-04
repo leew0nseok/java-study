@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hufsexample/10weeks/10weeks.iml" filepath="$PROJECT_DIR$/hufsexample/10weeks/10weeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsexample/12weeks/12weeks.iml" filepath="$PROJECT_DIR$/hufsexample/12weeks/12weeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsexample/13weeks/13weeks.iml" filepath="$PROJECT_DIR$/hufsexample/13weeks/13weeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsexample/9weeks/9weeks.iml" filepath="$PROJECT_DIR$/hufsexample/9weeks/9weeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/BookExample.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/BookExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/InClass/InClass.iml" filepath="$PROJECT_DIR$/hufsproblem/InClass/InClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookproblem/bookproblem.iml" filepath="$PROJECT_DIR$/bookproblem/bookproblem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap2/chap2.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap2/chap2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap3/chap3.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap3/chap3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap4/chap4.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap4/chap4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap5/chap5.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap5/chap5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap6/chap6.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap6/chap6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/BookExample/chap7/chap7.iml" filepath="$PROJECT_DIR$/hufsproblem/BookExample/chap7/chap7.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter3/chapter3.iml" filepath="$PROJECT_DIR$/chapter3/chapter3.iml" />
       <module fileurl="file://$PROJECT_DIR$/chapter4/chapter4.iml" filepath="$PROJECT_DIR$/chapter4/chapter4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5/chapter5.iml" filepath="$PROJECT_DIR$/chapter5/chapter5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastcamp/design/design.iml" filepath="$PROJECT_DIR$/fastcamp/design/design.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/example/example.iml" filepath="$PROJECT_DIR$/hufsproblem/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastcamp/fastcamp.iml" filepath="$PROJECT_DIR$/fastcamp/fastcamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finatestbookpro/finatestbookpro.iml" filepath="$PROJECT_DIR$/finatestbookpro/finatestbookpro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsclass.iml" filepath="$PROJECT_DIR$/hufsclass/hufsclass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsexample/hufsexample.iml" filepath="$PROJECT_DIR$/hufsexample/hufsexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsproblem/hufsproblem.iml" filepath="$PROJECT_DIR$/hufsproblem/hufsproblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/pracjava.java.iml" filepath="$PROJECT_DIR$/pracjava.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/problem/problem.iml" filepath="$PROJECT_DIR$/problem/problem.iml" />
     </modules>
   </component>
 </project>
