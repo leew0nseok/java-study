@@ -1,34 +1,54 @@
 package com.company.design;
 
 import com.company.design.adapter.*;
+import com.company.design.aop.AopBrowser;
+import com.company.design.decorator.*;
+import com.company.design.facade.Ftp;
+import com.company.design.facade.Reader;
+import com.company.design.facade.SftpClient;
+import com.company.design.facade.Writer;
+import com.company.design.observer.Button;
+import com.company.design.observer.IButtonListener;
+import com.company.design.proxy.Browser;
+import com.company.design.proxy.BrowserProxy;
+import com.company.design.proxy.IBrowser;
 import com.company.design.singleton.AClazz;
 import com.company.design.singleton.BClazz;
 import com.company.design.singleton.SocketClient;
+import com.company.design.strategy.*;
+
+
+import java.util.Base64;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class Main {
 
     public static void main(String[] args){
-        /*
-        AClazz aClazz = new AClazz();
-        BClazz bClazz = new BClazz();
 
-        SocketClient aClient = aClazz.getSocketClient();
-        SocketClient bClient = bClazz.getSocketClient();
+        Encoder encoder = new Encoder();
 
-        System.out.println("두개의 객체가 동일한가?");
-        System.out.println(aClient.equals(bClient));
-         */
-        HairDryer hairDryer = new HairDryer();
-        connect(hairDryer);
+        //Base64
+        EncodingStrategy base64 = new Base64Strategy();
 
-        Cleaner cleaner = new Cleaner();
+        //normal
+        EncodingStrategy normal = new NormalStrategy();
 
-        Electronic110V adapter = new SocketAdapter(cleaner);
-        connect(adapter);
+        String message = "hello jave";
 
-        AirConditioner airConditioner = new AirConditioner();
-        Electronic110V airAdapter = new SocketAdapter(airConditioner);
-        connect(airAdapter);
+        encoder.setEncodingStrategy(base64);
+        String base64Result = encoder.getMessage(message);
+        System.out.println(base64Result);
+
+        encoder.setEncodingStrategy(normal);
+        String normalResult = encoder.getMessage(message);
+        System.out.println(normalResult);
+
+        encoder.setEncodingStrategy(new AppendStrategy());
+        String appendResult = encoder.getMessage(message);
+        System.out.println(appendResult);
+
+
+
     }
     //콘센트
     public static void connect(Electronic110V electronic110V){
