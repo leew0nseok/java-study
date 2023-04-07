@@ -49,4 +49,19 @@ public class BoardController {
         return "정상적으로 수정 완료 되었습니다.";
 
     }
+    @DeleteMapping("/board/delete/{boardId}")
+    public String deleteBoard(@PathVariable int boardId){
+
+        for (int i = 0; i < this.boardList.size(); i++) {
+            if (boardList.get(i).getId() == boardId) {
+                boardList.remove(i);
+
+                log.info("게시판" + boardId + "의 정보가 삭제되엇습니다.");
+                return "삭제완료.";
+            }
+        }
+        log.error("요청한 게시글 아이디가 존재하지 않습니다.");
+        return "에러";
+
+    }
 }

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsexample/9weeks/9weeks.iml" filepath="$PROJECT_DIR$/hufsclass/hufsexample/9weeks/9weeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/BookExample.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/BookExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/InClass/InClass.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/InClass/InClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hufsclass/JavaFile/JavaFile.iml" filepath="$PROJECT_DIR$/hufsclass/JavaFile/JavaFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/bookproblem/bookproblem.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/bookproblem/bookproblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/chap2/chap2.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/chap2/chap2.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/chap3/chap3.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/BookExample/chap3/chap3.iml" />
@@ -26,7 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsexample/hufsexample.iml" filepath="$PROJECT_DIR$/hufsclass/hufsexample/hufsexample.iml" />
       <module fileurl="file://$PROJECT_DIR$/hufsclass/hufsproblem/hufsproblem.iml" filepath="$PROJECT_DIR$/hufsclass/hufsproblem/hufsproblem.iml" />
       <module fileurl="file://$PROJECT_DIR$/pracjava.java.iml" filepath="$PROJECT_DIR$/pracjava.java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/problem/problem.iml" filepath="$PROJECT_DIR$/problem/problem.iml" />
     </modules>
   </component>
 </project>
