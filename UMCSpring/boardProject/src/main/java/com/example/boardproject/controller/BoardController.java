@@ -8,12 +8,13 @@ import java.util.List;
 
 @RestController
 @Slf4j
+@RequestMapping("/board")
 public class BoardController {
 
     private List<Board> boardList = new ArrayList<>(); // 저장소
 
     //Path Variable 1개와 Query Parameter 2갸
-    @PostMapping("/board/create/{boardId}")
+    @PostMapping("create/{boardId}")
     public String createBoard(
             @PathVariable int boardId,
             @RequestParam String title,
@@ -25,13 +26,13 @@ public class BoardController {
             return "정상적으로 포스팅 되었습니다.";
     }
 
-    @GetMapping("/board/get")
+    @GetMapping("/get")
     public List<Board> getBoard(){
         log.info("정상적으로 get");
         return this.boardList;
     }
 
-    @PutMapping("/board/create/{boardId}")
+    @PutMapping("/create/{boardId}")
     public String updateBoard(
             @PathVariable int boardId,
             @RequestParam String title,
@@ -49,7 +50,7 @@ public class BoardController {
         return "정상적으로 수정 완료 되었습니다.";
 
     }
-    @DeleteMapping("/board/delete/{boardId}")
+    @DeleteMapping("/delete/{boardId}")
     public String deleteBoard(@PathVariable int boardId){
 
         for (int i = 0; i < this.boardList.size(); i++) {
