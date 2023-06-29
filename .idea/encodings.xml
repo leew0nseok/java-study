@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="x-windows-949">
-    <file url="PROJECT" charset="x-windows-949" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/inflearn/firstproject/src/main/java/com/example/firstproject/repository/CommentRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inflearn/firstproject/src/test/java/com/example/firstproject/repository/CommentRepositoryTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
